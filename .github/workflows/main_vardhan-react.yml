@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'vardhan-react'
           slot-name: 'Production'
-          package: build
+          package: .
           
