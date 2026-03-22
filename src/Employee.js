@@ -22,7 +22,7 @@ export class Employee extends Component {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://localhost:7233/api/Token/GetToken", {
+      const response = await fetch("https://vardhanappservice-arg3dwg3aegsabb7.canadacentral-01.azurewebsites.net/api/Token/GetToken", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

@@ -21,7 +21,7 @@ function EmployeeOperation() {
 
       setRole(userRole);
 
-      fetch("https://localhost:7233/api/Token/employees", {
+      fetch("https://vardhanappservice-arg3dwg3aegsabb7.canadacentral-01.azurewebsites.net/api/Token/employees", {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -47,7 +47,7 @@ function EmployeeOperation() {
   const handleDelete = async (id) => {
     try {
       const response = await fetch(
-        `https://localhost:7233/api/Token/deleteemployee/${id}`,
+        `https://vardhanappservice-arg3dwg3aegsabb7.canadacentral-01.azurewebsites.net/api/Token/deleteemployee/${id}`,
         {
           method: "DELETE",
           headers: {
