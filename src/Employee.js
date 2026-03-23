@@ -86,8 +86,9 @@ export class Employee extends Component {
               />
             </div>
 
+            {/* <button type="submit" className="login-btn"> */}
             <button type="submit" className="login-btn">
-              Login
+              LOGIN
             </button>
           </form>
 
